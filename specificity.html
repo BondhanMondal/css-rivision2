@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Specificity</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        h3{
+            color: cornflowerblue;
+        }
+        #third{
+            color: rgb(6, 74, 209);
+        }
+        .first-heading{
+            color: springgreen;
+        }
+        h3{
+            color: darkcyan;
+            background-color: cadetblue;
+        }
+        h3{
+            color: violet;
+        }
+        h3{
+            color: sienna;
+        }
+        p{
+            border: 2px solid yellow;
+        }
+    </style>
 </head>
 <body>
-    
+    <h3 class="first-heading">my heading number-1</h3>
+    <h3 class="first-heading">my heading number-2</h3>
+    <h3 id="third" class="first-heading" style="color: yellow;">my heading number-3</h3>
+    <h3>my heading number-4</h3>
+
+    <p>this is text description-1</p>
+    <p>this is text description-2</p>
+    <p>this is text description-3</p>
+    <p>this is text description-4</p>
+
 </body>
 </html>
